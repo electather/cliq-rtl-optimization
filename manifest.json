@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Cliq Persian fix",
+  "version": "1.0.0",
+  "description": "this package aims to fix annoying cliq problems with RTL",
+  "short_name": "Cliq Persian fix",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://cliq.zoho.eu/*"],
+      "css": ["override.css"],
+      "js": ["override.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Does a thing when you do a thing",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  }
+}

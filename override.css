@@ -1,0 +1,22 @@
+[dir="auto"] {
+  text-align: start !important;
+}
+
+[mtype="12"] {
+  max-width: 900px;
+}
+
+pre .global-rtl,
+span .global-rtl,
+.global-rtl .textL {
+  direction: rtl;
+  text-align: start;
+}
+
+.quotedmsgsender {
+  direction: ltr;
+}
+
+[msgtype="custommsg"] {
+  direction: ltr !important;
+}
