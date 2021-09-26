@@ -20,7 +20,8 @@ body {
 [msgtype="msg"],
 pre .global-rtl,
 span .global-rtl,
-.global-rtl .textL {
+.global-rtl .textL,
+.zcmsg-edt-inptbx {
   direction: rtl !important;
   text-align: start !important;
 }
@@ -29,10 +30,11 @@ span .global-rtl,
   direction: ltr;
 }
 
-[msgtype="custommsg"] {
+[msgtype="custommsg"],
+.zchtmsgcnt {
   direction: ltr !important;
 }
 
-.textL {
+[mtype="20"] .textL {
   text-align: start;
 }
