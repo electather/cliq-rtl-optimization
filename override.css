@@ -1,16 +1,28 @@
+@font-face {
+  font-family: dana;
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/dana-medium.woff2")
+    format("woff2");
+  font-weight: normal;
+}
+
+* {
+  font-family: dana;
+}
+
 [dir="auto"] {
   text-align: start !important;
 }
 
-[mtype] {
+[mtype],
+.zcmsg-thread {
   max-width: 900px;
 }
-
+[msgtype="msg"],
 pre .global-rtl,
 span .global-rtl,
 .global-rtl .textL {
-  direction: rtl;
-  text-align: start;
+  direction: rtl !important;
+  text-align: start !important;
 }
 
 .quotedmsgsender {
@@ -19,4 +31,8 @@ span .global-rtl,
 
 [msgtype="custommsg"] {
   direction: ltr !important;
+}
+
+.textL {
+  text-align: start;
 }
