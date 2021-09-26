@@ -5,8 +5,8 @@
   font-weight: normal;
 }
 
-* {
-  font-family: dana;
+body {
+  font-family: dana !important;
 }
 
 [dir="auto"] {
